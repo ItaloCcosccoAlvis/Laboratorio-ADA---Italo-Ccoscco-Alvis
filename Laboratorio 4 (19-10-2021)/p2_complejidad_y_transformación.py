@@ -10,12 +10,14 @@
 # end
 
 # Transformación de código
-def every_other(array):
-    for i in range(len(array)):
+def every_other(array):                 #O(n^2)
+    for i in range(len(array)):         #O(3n)
         if i % 2 == 0:
-            for j in array:
+            for j in array:             #O(n)
                 print(f"{array[i]} + {j} = {array[i]+j}" )
 
 # Casos de prueba
 array = [1,2,3]
 every_other(array)              
+
+# Complejidad O(n^2)
