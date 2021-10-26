@@ -15,3 +15,7 @@ def every_other(array):
         if i % 2 == 0:
             for j in array:
                 print(f"{array[i]} + {j} = {array[i]+j}" )
+
+# Casos de prueba
+array = [1,2,3]
+every_other(array)              
