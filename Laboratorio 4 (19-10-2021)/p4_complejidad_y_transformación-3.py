@@ -44,3 +44,7 @@ def fin_needle(needle,haystack):
         haystack_index  += 1
     return False
 
+# Caso de prueba
+needle = "fgh"
+haystack = "abcdefghi"
+print(fin_needle(needle,haystack))
