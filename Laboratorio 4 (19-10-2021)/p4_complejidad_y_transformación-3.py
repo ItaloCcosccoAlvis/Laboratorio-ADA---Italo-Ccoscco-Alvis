@@ -23,14 +23,14 @@ def fin_needle(needle,haystack):
 end
 '''
 
-def fin_needle(needle,haystack):
+def fin_needle(needle,haystack): # O(n^2)
     needle_index = 0
     haystack_index = 0
 
-    while haystack_index < len(haystack):
+    while haystack_index < len(haystack): # O(n)
         if needle[needle_index] == haystack[haystack_index]:
             found_needle = True
-            while needle_index < len(needle):
+            while needle_index < len(needle): # O(n)
                 if needle[needle_index] != haystack[haystack_index + needle_index]:
                     found_needle = False
                 break
@@ -48,3 +48,5 @@ def fin_needle(needle,haystack):
 needle = "fgh"
 haystack = "abcdefghi"
 print(fin_needle(needle,haystack))
+
+# Complejidad O(n^2)
