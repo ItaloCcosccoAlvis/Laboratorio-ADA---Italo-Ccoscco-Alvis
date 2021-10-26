@@ -11,7 +11,7 @@
 # Conversión de función O(n^2) to O(n) 
 def greatestNumber(array):
     greatest = array[0]
-    for i in range(len(array)-1):
+    for i in range(len(array)):
         if array[i] > greatest:
             greatest = array[i]
     return greatest
