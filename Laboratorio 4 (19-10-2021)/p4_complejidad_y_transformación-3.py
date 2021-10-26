@@ -23,9 +23,6 @@ def fin_needle(needle,haystack):
 end
 '''
 
-from typing import Literal
-
-
 def fin_needle(needle,haystack):
     needle_index = 0
     haystack_index = 0
@@ -37,10 +34,13 @@ def fin_needle(needle,haystack):
                 if needle[needle_index] != haystack[haystack_index + needle_index]:
                     found_needle = False
                 break
+
             needle_index += 1
-        if found_needle:
-            return True
-            
+
+            if found_needle == True:
+                return True
+
         needle_index = 0
         haystack_index  += 1
     return False
+
