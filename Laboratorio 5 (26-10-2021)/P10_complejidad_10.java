@@ -1,7 +1,7 @@
 public class P10_complejidad_10 {
     public static void main(String[] args) {
         
-        // Problema 9: ¿Cúal es la complejidad?
+        // Problema 10: ¿Cúal es la complejidad?
         int n = 10; //variable al azar
     
         for(int i = 0; i < n ; i++){ //O(n)
