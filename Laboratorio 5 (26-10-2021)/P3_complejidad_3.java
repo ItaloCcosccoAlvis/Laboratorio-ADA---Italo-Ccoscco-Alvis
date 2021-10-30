@@ -4,7 +4,7 @@ public class P3_complejidad_3 {
         // Problema 3: ¿Cúal es la complejidad?
         int n = 10; //variable al azar
         
-        // Bucle descendente
+        // Bucle intercalado
         for(int i = 0; i < n; i=i+2){
             System.out.println("statement");
         }
