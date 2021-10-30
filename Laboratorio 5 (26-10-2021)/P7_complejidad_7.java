@@ -8,7 +8,7 @@ public class P7_complejidad_7 {
         for(int i = 1; i < n; i = i * 2){ // O(n)
            System.out.println(i + " :statement");
         }
-        // Complejidad: O(log(n))
+        // Complejidad: O(log2(n))
         /*
          1 = 2^0
          2 = 2^1
