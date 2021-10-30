@@ -4,7 +4,7 @@ public class P8_complejidad_8 {
         // Problema 8: ¿Cúal es la complejidad?
         int n = 16; //variable al azar
         
-        for(int i = n; i >= 1 ; i = i / 2){ // O(n)
+        for(int i = n; i >= 1 ; i = i / 2){ 
            System.out.println(i + " :statement");
         }
         // Complejidad: O(n.log(n))
