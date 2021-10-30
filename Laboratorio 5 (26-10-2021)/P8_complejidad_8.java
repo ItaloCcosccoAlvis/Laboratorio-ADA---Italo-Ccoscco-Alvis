@@ -4,7 +4,6 @@ public class P8_complejidad_8 {
         // Problema 8: ¿Cúal es la complejidad?
         int n = 16; //variable al azar
         
-        // Bucle doble
         for(int i = n; i >= 1 ; i = i / 2){ // O(n)
            System.out.println(i + " :statement");
         }

@@ -4,7 +4,6 @@ public class P7_complejidad_7 {
         // Problema 7: ¿Cúal es la complejidad?
         int n = 10; //variable al azar
         
-        // Bucle doble
         for(int i = 1; i < n; i = i * 2){ // O(n)
            System.out.println(i + " :statement");
         }
